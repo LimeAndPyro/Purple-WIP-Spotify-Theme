@@ -1,0 +1,399 @@
+
+.main-navBar-banner,.main-navBar-navBar {
+    -webkit-box-direction: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.main-rootlist-rootlist {
+    margin-top: 3px;
+}
+.main-navBar-navBar {
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+    cursor: default;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-direction: column;
+    flex-direction: colum;
+    min-height: 0px;
+    padding-top: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 99%;
+}
+.main-rootlist-rootlist {
+    --left-sidebar-item-height: 33px;
+    --left-sidebar-padding-left: 9px;
+    --left-sidebar-padding-right: 8px;
+    --left-sidebar-item-pill-horizontal-padding: 7px;
+    --left-sidebar-item-indentation-width: 18px;
+    --left-sidebar-edit-input-height: 26px;
+    -ms-flex-positive: 1;
+    -ms-flex-negative: 0;
+    -ms-flex: 1;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-top: 24px;
+    position: relative;
+}
+.main-rootlist-rootlistDivider {
+    background-color: #3c19b5;
+    border: rebeccapurple;
+    height: 2px;
+    margin: 11px var(--left-sidebar-padding-right) 0 var(--left-sidebar-padding-left);
+    min-height: 3px;
+}
+.main-navBar-navBarItem {
+    padding: 10px 0px;
+}
+.Foyk_HJx16yh22JYmQ56 {
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 176px;
+    animation-name: spin;
+    animation-duration: 14000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.Dot {
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    left: 70px;
+    position: absolute;
+    top: 71px;
+}
+.Dot2 {
+    height: 60px;
+    width: 60px;
+    background-color: #83838396;
+    border-radius: 50%;
+    left: 60px;
+    position: absolute;
+    top: 61px;
+}
+.BIGBG {
+        height: 100%;
+        object-fit: none;
+        width: 100%;
+}
+.main-home-homeHeader {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(var(--spice-rgb-shadow),.6)),to(var(--background-base))),var(--background-noise);
+    background-image: linear-gradient(rgba(var(--spice-rgb-shadow),.6) 0,var(--background-base) 100%),var(--background-noise);
+    height: 0;
+    margin-top: -64px;
+    position: absolute;
+    -webkit-transition: background 1s ease;
+    transition: background 1s ease;
+    width: 100%;
+    z-index: -1;
+}
+:root {
+    --spice-shadow: #101010;
+    --spice-text: darkslateblue;
+    --spice-subtext: darkslateblue;
+    --spice-notification: #4687d6;
+    --spice-main-elevated: #242424;
+    --spice-main: #101010;
+    --spice-sidebar: #101010;
+    --spice-player: #101010;
+    --spice-card: #282828;
+    --spice-button-active: darkslateblue;
+    --spice-misc: #7f7f7f;
+    --spice-notification-error: #e22134;
+    --spice-highlight: #1a1a1a;
+    --spice-selected-row: #ffffff;
+    --spice-button-disabled: #535353;
+    --spice-button: darkslateblue;
+    --spice-highlight-elevated: #2a2a2a;
+    --spice-tab-active: #333333;
+    --spice-rgb-shadow: 0,0,0;
+    --spice-rgb-text: 255,255,255;
+    --spice-rgb-subtext: 179,179,179;
+    --spice-rgb-notification: 70,135,214;
+    --spice-rgb-main-elevated: 36,36,36;
+    --spice-rgb-main: 18,18,18;
+    --spice-rgb-sidebar: 0,0,0;
+    --spice-rgb-player: 24,24,24;
+    --spice-rgb-card: 40,40,40;
+    --spice-rgb-button-active: 30,215,96;
+    --spice-rgb-misc: 127,127,127;
+    --spice-rgb-notification-error: 226,33,52;
+    --spice-rgb-highlight: 26,26,26;
+    --spice-rgb-selected-row: 255,255,255;
+    --spice-rgb-button-disabled: 83,83,83;
+    --spice-rgb-button: 29,185,84;
+    --spice-rgb-highlight-elevated: 42,42,42;
+    --spice-rgb-tab-active: 51,51,51;
+}
+.main-playPauseButton-button {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    background-color: darkslateblue;
+    border: none;
+    border-radius: 10PX;
+    color: var(--spice-sidebar);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: var(--button-size);
+    justify-content: center;
+    min-width: var(--button-size);
+    position: relative;
+    -webkit-transition: none 33ms cubic-bezier(.3,0,.7,1);
+    transition: none 33ms cubic-bezier(.3,0,.7,1);
+    -webkit-transition-property: all;
+    transition-property: all;
+    width: 51px;
+}
+.main-card-card {
+    --card-container-border-radius: clamp(4px,(var(--column-width,0px) - 32px) * 0.025,8px);
+    -webkit-box-flex: 1;
+    background: #101010;
+    border-radius: calc(var(--card-container-border-radius) + 15px);
+    border: 2px outset #3a4266;
+    -ms-flex: 1;
+    flex: 1;
+    isolation: isolate;
+    padding: 25px;
+    position: relative;
+    -webkit-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    width: 100%;
+}
+.view-homeShortcutsGrid-shortcut {
+    background-color: #101010;
+    border-radius: 20px;
+    width: 500px;
+    height: var(--item-height);
+    border: 2.7px outset;
+    border-color: #3a4266;
+    border-bottom: 132px blue;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+.main-cardImage-imageWrapper {
+    --card-image-border-radius: clamp(4px,(var(--column-width,0px) - 32px) * 0.025,8px);
+    background-color: #ffffff00;
+    border-radius: 19px;
+    box-shadow: 0 8px 24px rgba(var(--spice-rgb-shadow),.5);
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.main-card-imageContainer {
+    margin-bottom: 20px;
+    position: relative;
+    border: 3px inset #3a4266;
+    border-radius: 42px;
+}
+.main-cardImage-image, .main-entityHeader-imagePlaceholder {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 35px;
+}
+.encore-dark-theme .encore-bright-accent-set {
+    --background-base: black;
+    --background-highlight: black;
+    --background-press: var(--spice-button-active);
+    --background-elevated-base: var(--spice-button-active);
+    --background-elevated-highlight: var(--spice-button-active);
+    --background-elevated-press: var(--spice-button-active);
+    --background-tinted-base: var(--spice-button-active);
+    --background-tinted-highlight: var(--spice-button-active);
+    --background-tinted-press: var(--spice-button-active);
+    --background-unsafe-for-small-text-base: var(--spice-button-active);
+    --background-unsafe-for-small-text-highlight: var(--spice-button-active);
+    --background-unsafe-for-small-text-press: var(--spice-button-active);
+    --text-base: var(--spice-sidebar);
+    --text-subdued: var(--spice-sidebar);
+    --text-bright-accent: var(--spice-sidebar);
+    --text-negative: var(--spice-sidebar);
+    --text-warning: var(--spice-sidebar);
+    --text-positive: var(--spice-sidebar);
+    --text-announcement: var(--spice-sidebar);
+    --essential-base: var(--spice-sidebar);
+    --essential-subdued: var(--spice-sidebar);
+    --essential-bright-accent: var(--spice-sidebar);
+    --essential-negative: var(--spice-sidebar);
+    --essential-warning: var(--spice-sidebar);
+    --essential-positive: var(--spice-sidebar);
+    --essential-announcement: var(--spice-sidebar);
+    --decorative-base: var(--spice-sidebar);
+    --decorative-subdued: #1abc54;
+}
+.ButtonInner-md {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: black;
+    position: relative;
+    background-color: black;
+    color: #3a4266;
+    display: flex;
+    border-radius: 535px;
+    font-size: inherit;
+    min-block-size: 48px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-block: 1px;
+    padding-inline: 32px;
+    right: 49px;
+    top: -36px;
+}
+.Wrapper-md-24-only {
+    display: flex;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    right: -23px;
+}
+.TypeElement-mestoBold-type {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    margin-block: 0px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    color: inherit;
+    width: 47px;
+}
+.main-avatar-image {
+    border-radius: 266px;
+    height: 90%;
+    object-fit: cover;
+    width: 30px;
+}
+.main-userWidget-box {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    border-radius: 11px;
+    color: var(--spice-text);
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    border: 1px outset #3a4266;
+    display: flex;
+    gap: 10px;
+    height: 36px;
+    justify-content: center;
+    padding: 2px;
+    position: relative;
+}
+.main-topBar-historyButtons .main-topBar-button {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #101010;
+    border-radius: 27%;
+    color: var(--spice-text);
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 40px;
+    justify-content: center;
+    position: relative;
+    width: 59px;
+}
+.main-topBar-historyButtons .main-topBar-button {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #101010;
+    border-radius: 27%;
+    color: var(--spice-text);
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 40px;
+    justify-content: center;
+    position: relative;
+    width: 59px;
+}.main-topBar-historyButtons .main-topBar-button {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #101010;
+    border-radius: 27%;
+    color: var(--spice-text);
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 40px;
+    justify-content: center;
+    position: relative;
+    width: 59px;
+}
+.x-progressBar-progressBarBg,.x-progressBar-sliderArea {
+    border-radius: 5px;
+    height: var(--progress-bar-height);
+    width: 100%;
+    height: 12px;
+}
+.progress-bar__slider {
+    background-color: var(--spice-text);
+    border: 0;
+    border-radius: 15%;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(var(--spice-rgb-shadow),.5);
+    box-shadow: 0 2px 4px 0 rgba(var(--spice-rgb-shadow),.5);
+    display: none;
+    height: 19px;
+    left: var(--progress-bar-transform);
+    margin-left: -6px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 22px;
+    z-index: 100
+}
+.progress-bar {
+    --bg-color: rgba(var(--spice-rgb-selected-row),.3);
+    --fg-color: var(--spice-text);
+    --is-active-fg-color: var(--spice-button);
+    --progress-bar-transform: 0%;
+    --progress-bar-height: 12px;
+    --progress-bar-radius: 2px;
+    height: 100%;
+    overflow: hidden;
+    -ms-touch-action: none;
+    touch-action: none;
+    width: 100%
+}
+
